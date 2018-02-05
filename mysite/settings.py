@@ -24,7 +24,10 @@ SECRET_KEY = '_j@#xf+hc_gg0)@%pbyd--znt5+ul7zq+lt*5+uwk=tulp$mq!'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'idmobile.pythonanywhere.com',
+    '127.0.0.1'
+]
 
 
 # Application definition
